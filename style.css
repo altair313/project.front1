@@ -61,7 +61,7 @@ header {
     transform: scale(1.1);
 }
 
-/* Intro Section */
+
 #intro{
     display: flex;
     align-items: center;
@@ -179,20 +179,20 @@ footer p {
 
 
 
-/* Family Page Styles */
+
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/project-front/aaaaaaa 2.jpeg'); /* Замените на путь к новому фону */
+    background-image: url('/project-front/aaaaaaa 2.jpeg'); 
     background-size: cover;
     background-position: center;
     color: white;
 }
 
 header {
-    position: relative; /* Изменено для правильного позиционирования */
+    position: relative; 
     width: 100%;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон для шапки */
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
 .header-container {
@@ -228,11 +228,11 @@ header {
 
 #family {
     padding: 50px;
-    background-color: rgba(0, 0, 0, 0.7); /* Темный фон для контента */
-    border-radius: 15px; /* Закругление углов */
-    max-width: 800px; /* Максимальная ширина */
-    margin: 50px auto; /* Центрирование */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Тень */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px; 
+    max-width: 800px; 
+    margin: 50px auto; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
 }
 
 .family-content {
@@ -243,7 +243,7 @@ header {
     font-size: 36px;
     margin-bottom: 30px;
     font-family: 'Playfair Display', serif;
-    color: #ff6f61; /* Цвет заголовка */
+    color: #ff6f61; 
 }
 
 .family-member {
@@ -251,17 +251,17 @@ header {
     align-items: center;
     margin: 20px 0;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный белый фон */
+    background-color: rgba(255, 255, 255, 0.2); 
     border-radius: 10px;
-    transition: transform 0.3s; /* Эффект при наведении */
+    transition: transform 0.3s; 
 }
 
 .family-member:hover {
-    transform: scale(1.05); /* Увеличение при наведении */
+    transform: scale(1.05); 
 }
 
 .family-member img {
-    width: 120px; /* Размер изображения */
+    width: 120px; 
     height: auto;
     border-radius: 10px;
     margin-right: 20px;
@@ -279,7 +279,7 @@ header {
     line-height: 1.5;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
